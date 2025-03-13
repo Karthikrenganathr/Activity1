@@ -8,6 +8,7 @@ const StudentList = EmberObject.extend({
   })
 });
 
+
 export default Controller.extend({
   clgStudents: StudentList.create(),
   actions: {
